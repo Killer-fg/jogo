@@ -1,0 +1,27 @@
+return {
+ MutationPerSecond=1,
+ SmashDistance=14,
+ Mutations={
+  {Need=0,Name="Human",Scale=1,Color=Color3.fromRGB(180,255,180)},
+  {Need=10,Name="Infected",Scale=1.08,Color=Color3.fromRGB(120,255,90)},
+  {Need=25,Name="Mutant",Scale=1.18,Color=Color3.fromRGB(70,255,80)},
+  {Need=50,Name="Freak",Scale=1.3,Color=Color3.fromRGB(40,220,70)},
+  {Need=100,Name="Abomination",Scale=1.45,Color=Color3.fromRGB(20,180,70)},
+  {Need=250,Name="Nuclear",Scale=1.65,Color=Color3.fromRGB(180,255,40)},
+  {Need=500,Name="Void",Scale=1.9,Color=Color3.fromRGB(120,50,220)},
+  {Need=1000,Name="Cosmic",Scale=2.2,Color=Color3.fromRGB(60,170,255)}
+ },
+ Objects={
+  {Name="Crate",Need=0,Reward=5,HP=1},
+  {Name="Barrel",Need=10,Reward=12,HP=2},
+  {Name="Rock",Need=25,Reward=25,HP=3},
+  {Name="Car",Need=50,Reward=60,HP=4},
+  {Name="Tank",Need=100,Reward=150,HP=6}
+ },
+ Upgrades={
+  Mutation={Base=100,Growth=1.7},
+  DNA={Base=150,Growth=1.8},
+  Speed={Base=125,Growth=1.65}
+ },
+ RebirthNeed=2500
+}
